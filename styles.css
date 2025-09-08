@@ -1,0 +1,51 @@
+header {
+background: red;
+padding:50px;
+}
+main {
+background: green;
+padding: 50px;
+}
+footer {
+background: blue;
+padding: 50px
+}
+html {
+    height: 100%;
+    width: 100%;
+}
+body {
+    height: 100%;
+    width: 100%;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+main {
+    flex: 1; 
+}
+section {
+    border: 3px solid black;
+    margin: 10px;
+}
+div {
+    border: 2px solid white;
+    height: 100px;
+    margin: 10px;
+}
+.block-item {
+    display: block;
+    background: yellow;
+}
+.inline-item {
+    display: inline;
+    background: cyan;
+    padding: 20px;
+}
+.inline-block-item {
+    display: inline-block;
+    background: magenta;
+    width: 100px;
+}

@@ -1,14 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 header {
-background: red;
+background: rgb(224, 149, 149);
 padding:50px;
 }
 main {
-background: green;
+background: rgb(147, 215, 233);
 padding: 50px;
 }
 footer {
-background: blue;
+background: rgba(4, 4, 131, 0.953);
 padding: 50px
+}
+h2 {
+    padding-left: 3%
 }
 html {
     height: 100%;
@@ -27,12 +35,8 @@ main {
     flex: 1; 
 }
 section {
-    border: 3px solid black;
-    margin: 10px;
-}
-div {
-    border: 2px solid white;
-    height: 100px;
+    border: 5px solid black;
+    border-radius: 50px;
     margin: 10px;
 }
 .block-item {
@@ -48,4 +52,13 @@ div {
     display: inline-block;
     background: magenta;
     width: 100px;
+}
+img {
+    border: 1000px
+}
+
+.center-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

@@ -15,6 +15,9 @@ footer {
 background: rgba(4, 4, 131, 0.953);
 padding: 50px
 }
+H1 {
+    border: rgba(0, 0, 255, 0.37) dotted; border-radius: 10px; text-align: center; background-color:aliceblue;
+}
 h2 {
     padding-left: 3%
 }
@@ -42,6 +45,7 @@ section {
 .block-item {
     display: block;
     background: yellow;
+    border-radius: 40px;
 }
 .inline-item {
     display: inline;
@@ -61,4 +65,15 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.div {
+    border: 2px solid white;
+    height: 100px;
+    margin: 10px;
+}
+
+.white-border {
+    border: 2px solid white;
+    background-color: yellow;
+    border-radius: 40px;
 }

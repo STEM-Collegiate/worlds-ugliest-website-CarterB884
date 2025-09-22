@@ -21,6 +21,12 @@ H1 {
 h2 {
     padding-left: 3%
 }
+h3 {
+    border: rgba(22, 22, 159, 0.651); 
+    border-block-end-width: 8px; 
+    border-radius: 10px; 
+    text-align: center;
+}
 html {
     height: 100%;
     width: 100%;
@@ -28,8 +34,6 @@ html {
 body {
     height: 100%;
     width: 100%;
-}
-body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -58,7 +62,8 @@ section {
     width: 100px;
 }
 img {
-    border: 1000px
+    border: 1000px;
+    max-width:100%;
 }
 
 .center-img{
@@ -76,4 +81,30 @@ img {
     border: 2px solid white;
     background-color: yellow;
     border-radius: 40px;
+}
+div {
+    display: flex;
+    justify-content: space-evenly;
+}
+.image2 {
+    height:435px;
+}
+.image3 {
+    height: 240px;
+}
+ul {
+    text-align:center
+}
+.link {
+    border: 3px green solid; 
+    background-color: white; 
+    border-radius: 10px
+}
+.main-background {
+    border: 6px dotted white;
+}
+.image-pg3 {
+    border: 5px pink solid; 
+    border-radius: 20px; 
+    height: 300px;
 }
